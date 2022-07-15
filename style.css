@@ -1,0 +1,505 @@
+:root{ --header-height: 3.5rem;
+    --first-color: hsl(354, 78%, 60%);
+    --button-color: hsl(0, 0%, 17%);
+    --button-color-alt: hsl(0, 0%, 21%);
+    --card-color: hsl(0, 0%, 90%);
+    --title-color: hsl(0, 0%, 15%);
+    --text-color: hsl(0, 0%, 35%);
+    --text-color-light: hsl(0, 0%, 55%);
+    --body-color: hsl(206, 4%, 97%);
+    --container-color: #fff;
+    --border-color: hsl(0, 0%, 94%);
+    --body-font: 'Roboto', sans-serif;
+    --biggest-font-size: 2rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+    --font-medium: 500;
+    --font-bold: 700;
+    --mb-0-5: .5rem;
+    --mb-0-75: .75rem;
+    --mb-1: 1rem;
+    --mb-1-5: 1.5rem;
+    --mb-2: 2rem;
+    --mb-2-5: 2.5rem;
+    --mb-3: 3rem;
+    --z-tooltip: 10;
+    --z-fixed: 100;}
+
+    *{   
+
+
+
+        padding: 0px;
+        margin: 0px;
+    }
+    
+
+    main {
+
+
+        max-width: 800px;
+
+        margin:auto;
+    }
+
+    main  header  {
+
+        
+        height: 12vh; 
+        position: relative;
+
+    }
+
+    main  header .bolsa_lunita .bolsa1 {
+       
+        position: absolute;
+
+        right: 0;
+        top: 2rem;
+
+
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+
+    main  header .bolsa_lunita .bolsa2 {
+       
+        position: absolute;
+
+        right: 2rem;
+        top: 2rem;
+
+
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+
+
+   
+
+
+
+    main  header nav ul {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 2rem;
+        align-items: center;
+        list-style: none;
+        color: var(--text-color);
+        font-weight: 100;
+
+        font-size: 0.8rem;
+        padding: auto;
+
+    }
+
+    main header nav ul h3 {
+
+        font-size: 1.2rem;
+        color: black;
+
+
+
+    }
+
+   
+
+    main .container {
+     
+        display: grid;
+
+        grid-template-columns: auto auto;
+        gap:2rem; 
+
+
+
+
+    }
+
+
+    main .container .front_image {
+
+        
+
+        max-width: 40vw;
+        background-color: var(--first-color);
+        display: grid;
+        grid-column: 3;
+        
+       
+        
+
+
+    }
+
+    /* imagen de principal */
+
+
+    main .container .front_image .img_front{
+    
+      
+       display: block;       
+       flex-direction: column;
+       align-self: flex-end;
+
+        margin: auto;
+        padding: 1rem;
+        max-height: 100%;
+        max-width: 100%;
+
+    }
+
+    main .container .title1 {  
+    display: grid;
+    grid-column: 1;
+    grid-row:1; 
+
+    
+
+}
+
+    main .container .title1 h1 {
+
+        font-size: var(1.5rem);
+        margin-top: 2rem;
+        
+
+
+
+
+    }
+
+    main .container .title1 p{
+
+
+        margin-top: 0.5px; 
+    }
+    
+
+    main .container .title1 .collection{
+
+        color: var(--button-color)
+
+
+    }
+
+
+    main .container .title1 h2 {
+
+        color:var(--first-color);
+        margin-top: 1rem;
+
+    }
+
+
+
+    main .container .button1 .caja1 {
+
+        height: 4vh;
+
+        width: auto;
+        background-color: gray;
+        font-size: var(--small-font-size);
+    }
+
+    main .container .button1 .caja2 {
+
+
+        height:5vh;
+        width: auto;
+
+        background-color: black;
+
+        color:#fff
+
+
+
+    }
+
+    main .container2 ul {
+
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        
+        list-style: none;
+
+        margin: 5rem 2rem;
+        text-align: center;
+        font-weight: 400;
+       
+
+    }
+
+    main .container2 ul li{
+
+       
+        border-right: solid black 2px;
+
+
+
+
+    }
+
+
+    main .container2 ul span {
+
+        font-size: var(--small-font-size);
+        display: block;
+
+
+
+    }
+
+    main .images {
+
+    height: 80vh;
+    width: 100%;
+
+    display: grid;
+
+    grid-template-columns:  1fr 1fr 1fr;
+    
+    padding: 2rem;
+
+    gap:2rem; 
+
+
+
+    }
+
+
+    main .images .shirt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       justify-content: center;
+
+
+        height: 50%;
+        background-color: var(--card-color);}
+
+
+    main .images .shirt .img_shirt1{
+
+        width: 80%;
+        height: 60%;
+
+
+
+
+    }
+    main  main .images .shirt .caja {
+
+        height:30vh;
+
+        width: 100% ;  /* Colorear caja de blanco  */
+
+        
+       
+
+    }
+
+    main .images .shirt  ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        gap:1px;
+       
+        
+
+    }
+
+    main .images .shirt ul :nth-child(1) {
+       
+        border-right: solid black 1px;
+
+
+
+    }
+
+    main .images button  {
+
+     border-radius: 100%;
+     height: 2rem;
+     width: 2rem;
+     margin-top: 1rem;
+     border:none;
+     outline: none;
+     font-size: 1.5rem;
+
+    }
+
+   
+ footer {
+
+    background-color: var(--card-color);
+
+    height: 30vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+  gap: 8rem;
+
+  padding-top: 3rem;
+
+ 
+
+
+ }
+
+ footer .caja1 ul{
+
+    list-style: none;
+
+
+ }
+footer .caja1 ul h3 {
+
+    font-size: 1rem;
+
+    margin-bottom: 1rem;
+
+    
+ }
+
+ footer :nth-child(4) ul {
+
+
+    display: flex;
+     flex-direction: row ;
+     justify-content: center;
+     margin-top: 1rem;
+     align-items: center;
+     gap: 1rem; 
+
+    
+ }
+
+ /* carrito */
+
+
+ .cartShopping {
+    cursor: pointer;
+    position: fixed;
+    top: 1em;
+    right: 1em;
+    transition: opacity 0.5s;
+    z-index: var(--z-fixed);
+}
+
+.content__cartShopping {
+    position: relative;
+}
+
+.content__cartShopping span {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+}
+
+.cartShopping:hover {
+    opacity: 0.7;
+}
+
+.container__shopping {
+    width: 30vw;
+    height: 100vh;
+    background-color: #fff;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: var(--z-tooltip);
+    border-bottom-left-radius: 2em;
+    border-top-left-radius: 2em;
+    margin-right: -100%;
+
+    transition: margin-right 0.5s;
+}
+
+.show__shopping {
+    margin-right: 0;
+    text-align: center;
+}
+
+.content_shopping {
+    height: 80%;
+    padding: 1em;
+}
+.content_total {
+    height: 20%;
+    background-color: green;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.shopping__img {
+    width: 10px;
+    
+}
+
+.shopping__img .img_sweeters{
+
+    height: 10vh;
+
+}
+
+.shopping__header {
+    display: flex;
+    gap: 1em;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+.rest,
+.add,
+.del {
+    cursor: pointer;
+}
+
+
+
+
+.content_Items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1em;
+}
+
+
+
+.container__principal {
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 2em;
+    padding: 1em;
+}
+
+
+.food {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.food__img {
+    width: 60px;
+}
+
+
